@@ -1,0 +1,19 @@
+{
+  "name": "nurullah/php-nvi-adres-sorgulama",
+  "description": "PHP ile NVI Adres Sorgulama botu",
+ "license": "MIT",
+ "authors": [
+    {
+      "name": "Nurullah ISIK",
+       "email": "bmnurullah@gmail.com"
+    }
+  ],
+  "require": {
+      
+  },
+  "autoload": {
+    "psr-4": {
+      "NVI\\Adres\\": "src/"
+    }
+  }
+}
