@@ -117,9 +117,9 @@ Kurulum işlemi tamamlandıktan sonra dosyalar vendor klasörü altına gelecekt
 ### Bağımsız Bölüm(İç Kapı)
     <?php
         $properties = new AddressProperties();
-        $$properties->setNeighborhoodId(176887); // Mahalle servisinden donen KimlikNo
-         $properties->setBuildingId(205887102); // Bina servisinden donen kimlikNo
-         $properties->setType("door");
+        $properties->setNeighborhoodId(176887); // Mahalle servisinden donen KimlikNo
+        $properties->setBuildingId(205887102); // Bina servisinden donen kimlikNo
+        $properties->setType("door");
         
         //result
         print_r($object::create($properties)->getResult());
